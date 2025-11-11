@@ -1,0 +1,1302 @@
+ Job started on host DESKTOP-1C867QN
+ at Mon May 26 19:35:48 2025
+
+ +-------------------------------------------------+
+ |                                                 |
+ |      CCC   AA    SSS  TTTTT  EEEEE  PPPP        |
+ |     C     A  A  S       T    E      P   P       |
+ |     C     AAAA   SS     T    EEE    PPPP        |
+ |     C     A  A     S    T    E      P           |
+ |      CCC  A  A  SSS     T    EEEEE  P           |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ | Materials Studio CASTEP version 2017            |
+ | Ab Initio Total Energy Program                  |
+ |                                                 |
+ | Authors:                                        |
+ | M. Segall, M. Probert, C. Pickard, P. Hasnip,   |
+ | S. Clark, K. Refson, J. R. Yates, M. Payne      |
+ |                                                 |
+ | Contributors:                                   |
+ | P. Lindan, P. Haynes, J. White, V. Milman,      |
+ | N. Govind, M. Gibson, P. Tulip, V. Cocula,      |
+ | B. Montanari, D. Quigley, M. Glover,            |
+ | L. Bernasconi, A. Perlov, M. Plummer,           |
+ | E. McNellis, J. Meyer, J. Gale, D. Jochym       |
+ | J. Aarons, B. Walker, R. Gillen, D. Jones       |
+ | T. Green, I. J. Bush, C. J. Armstrong,          |
+ | E. J. Higgins, E. L. Brown, M. S. McFly         |
+ |                                                 |
+ | Copyright (c) 2000 - 2016                       |
+ |                                                 |
+ | Please cite                                     |
+ |                                                 |
+ |     "First principles methods using CASTEP"     |
+ |                                                 |
+ |         Zeitschrift fuer Kristallographie       |
+ |           220(5-6) pp. 567-570 (2005)           |
+ |                                                 |
+ | S. J. Clark, M. D. Segall, C. J. Pickard,       |
+ | P. J. Hasnip, M. J. Probert, K. Refson,         |
+ | M. C. Payne                                     |
+ |                                                 |
+ |       in all publications arising from          |
+ |              your use of CASTEP                 |
+ |                                                 |
+ +-------------------------------------------------+
+ 
+ 
+ This version was compiled for x86_64-windows-msvc2008 on May 05 2016
+ Intel(R) Math Kernel Library Version 11.1.2 
+ Fundamental constants values: CODATA 2010
+ 
+License checkout of MS_castep successful
+ 
+
+ Warning in parameters_validate: current value of 
+   ELEC_EIGENVALUE_TOL = 0.100000E-08eV
+   is too large to achieve desired level of convergence of response properties.
+   This may cause convergence failures and/or inaccuracy of results
+   of PHONON calculations - recommend you use a smaller value, e.g. 
+   ELEC_EIGENVALUE_TOL = 0.400000E-10eV
+ +-------------------------------------------------+
+ |                                                 |
+ |  D D D D    F F F F F  P P P P     T T T T T    |
+ |  D       D  F          P       P       T        |
+ |  D       D  F F F F    P P P P         T        |
+ |  D       D  F          P               T        |
+ |  D D D D    F          P               T        |
+ |                                                 |
+ +-------------------------------------------------+
+ |                                                 |
+ | Welcome to Castep Linear Response (DFPT)        |
+ |                                                 |
+ | Copyright (c) 2006 - 2016                       |
+ |                                                 |
+ | Please cite the following publications in all   |
+ | work arising from your use of CASTEP LR.        |
+ |                                                 |
+ | K. Refson, S. J. Clark and P. R. Tulip          |
+ | Variational density functional perturbation     |
+ | theory for dielectrics and lattice dynamics     |
+ | Phys. Rev. B 73(15), 155114 (2006)              |
+ +-------------------------------------------------+
+ 
+Reading continuation data from model file AlSiTe3_PhonDOS.check
+ 
+ Atomic calculation performed for Al: 1s2 2s2 2p6 3s2 3p1
+ 
+ Converged in 54 iterations to an ae energy of -6603.782 eV
+ 
+ Identity difference: 1.59E-02
+ 
+   ============================================================                
+   | Pseudopotential Report - Date of generation 26-05-2025   |                
+   ------------------------------------------------------------                
+   | Element: Al Ionic charge:  3.00 Level of theory: PBE     |                
+   | Atomic Solver: Koelling-Harmon                           |                
+   |                                                          |                
+   |               Reference Electronic Structure             |                
+   |         Orbital         Occupation         Energy        |                
+   |            3s              2.000           -0.285        |                
+   |            3p              1.000           -0.100        |                
+   |                                                          |                
+   |                 Pseudopotential Definition               |                
+   |        Beta     l      e      Rc     scheme   norm       |                
+   |          1      0   -0.285   1.597     qc      1         |                
+   |          2      2    0.000   1.597     qc      1         |                
+   |         loc     1   -0.100   1.597     qc      1         |                
+   |                                                          |                
+   | No charge augmentation                                   |                
+   | Partial core correction Rc = 1.116                       |                
+   ------------------------------------------------------------                
+   | "1|1.6|5|7|9|30N:31L:32N[]"                              |                
+   ------------------------------------------------------------                
+   |      Author: Chris J. Pickard, Cambridge University      |                
+   ============================================================                
+ 
+ Doing a self consistent calculation for the test configuration
+ 
+ Atomic calculation performed for Al: 1s2 2s2 2p6 3s2 3p1
+ 
+ Converged in 54 iterations to an ae energy of -6603.782 eV
+ 
+ ---------------------------------------
+ AE eigenvalue nl 10 =      -55.53347827
+ AE eigenvalue nl 20 =       -3.97499262
+ AE eigenvalue nl 21 =       -2.55933606
+ AE eigenvalue nl 30 =       -0.28491403
+ AE eigenvalue nl 31 =       -0.09966789
+ ---------------------------------------
+ PS eigenvalue nl 30 =       -0.28486787
+ PS eigenvalue nl 31 =       -0.09954199
+ ---------------------------------------
+ Maximum eigenvalue error:   1.26E-04
+ 
+ Derived cutoff energies: C=   2 M=   4 F=   4 E=   8
+ 
+ 
+ ***************************************
+ 
+ Atomic calculation performed for Si: 1s2 2s2 2p6 3s2 3p2
+ 
+ Converged in 54 iterations to an ae energy of -7886.857 eV
+ 
+ Identity difference: 2.03E-02
+ 
+   ============================================================                
+   | Pseudopotential Report - Date of generation 26-05-2025   |                
+   ------------------------------------------------------------                
+   | Element: Si Ionic charge:  4.00 Level of theory: PBE     |                
+   | Atomic Solver: Koelling-Harmon                           |                
+   |                                                          |                
+   |               Reference Electronic Structure             |                
+   |         Orbital         Occupation         Energy        |                
+   |            3s              2.000           -0.397        |                
+   |            3p              2.000           -0.150        |                
+   |                                                          |                
+   |                 Pseudopotential Definition               |                
+   |        Beta     l      e      Rc     scheme   norm       |                
+   |          1      0   -0.397   1.599     qc      1         |                
+   |          2      2    0.000   1.599     qc      1         |                
+   |         loc     1   -0.150   1.599     qc      1         |                
+   |                                                          |                
+   | No charge augmentation                                   |                
+   | Partial core correction Rc = 1.117                       |                
+   ------------------------------------------------------------                
+   | "1|1.6|6|7|9|30N:31L:32N[]"                              |                
+   ------------------------------------------------------------                
+   |      Author: Chris J. Pickard, Cambridge University      |                
+   ============================================================                
+ 
+ Doing a self consistent calculation for the test configuration
+ 
+ Atomic calculation performed for Si: 1s2 2s2 2p6 3s2 3p2
+ 
+ Converged in 54 iterations to an ae energy of -7886.857 eV
+ 
+ ---------------------------------------
+ AE eigenvalue nl 10 =      -65.63192903
+ AE eigenvalue nl 20 =       -5.12654326
+ AE eigenvalue nl 21 =       -3.51173659
+ AE eigenvalue nl 30 =       -0.39736430
+ AE eigenvalue nl 31 =       -0.14998156
+ ---------------------------------------
+ PS eigenvalue nl 30 =       -0.39735312
+ PS eigenvalue nl 31 =       -0.14996116
+ ---------------------------------------
+ Maximum eigenvalue error:   2.04E-05
+ 
+ Derived cutoff energies: C=   2 M=   6 F=   6 E=   8
+ 
+ 
+ ***************************************
+ 
+ Atomic calculation performed for Te:
+ 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4
+ 
+ Converged in 74 iterations to an ae energy of -184887.051 eV
+ 
+ Identity difference: 6.08E-02
+ 
+   ============================================================                
+   | Pseudopotential Report - Date of generation 26-05-2025   |                
+   ------------------------------------------------------------                
+   | Element: Te Ionic charge:  6.00 Level of theory: PBE     |                
+   | Atomic Solver: Koelling-Harmon                           |                
+   |                                                          |                
+   |               Reference Electronic Structure             |                
+   |         Orbital         Occupation         Energy        |                
+   |            5s              2.000           -0.555        |                
+   |            5p              4.000           -0.219        |                
+   |                                                          |                
+   |                 Pseudopotential Definition               |                
+   |        Beta     l      e      Rc     scheme   norm       |                
+   |          1      0   -0.555   2.204     qc      1         |                
+   |          2      1   -0.219   2.204     qc      1         |                
+   |         loc     2    0.000   2.204     pn      0         |                
+   |                                                          |                
+   | No charge augmentation                                   |                
+   | Partial core correction Rc = 1.540                       |                
+   ------------------------------------------------------------                
+   | "2|2.2|4.8|7.4|9.2|50N:51N[]"                            |                
+   ------------------------------------------------------------                
+   |      Author: Chris J. Pickard, Cambridge University      |                
+   ============================================================                
+ 
+ Doing a self consistent calculation for the test configuration
+ 
+ Atomic calculation performed for Te:
+ 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p6 4d10 5s2 5p4
+ 
+ Converged in 74 iterations to an ae energy of -184887.051 eV
+ 
+ ---------------------------------------
+ AE eigenvalue nl 10 =    -1162.35227488
+ AE eigenvalue nl 20 =     -178.24632272
+ AE eigenvalue nl 21 =     -160.00620108
+ AE eigenvalue nl 30 =      -35.47173737
+ AE eigenvalue nl 31 =      -29.54318713
+ AE eigenvalue nl 32 =      -20.58152877
+ AE eigenvalue nl 40 =       -6.04112586
+ AE eigenvalue nl 41 =       -4.20445800
+ AE eigenvalue nl 42 =       -1.53071897
+ AE eigenvalue nl 50 =       -0.55522942
+ AE eigenvalue nl 51 =       -0.21878005
+ ---------------------------------------
+ PS eigenvalue nl 50 =       -0.55521691
+ PS eigenvalue nl 51 =       -0.21877065
+ ---------------------------------------
+ Maximum eigenvalue error:   1.25E-05
+ 
+ Derived cutoff energies: C=   4 M=   6 F=   8 E=  10
+ 
+ 
+ ***************************************
+ 
+ Pseudo atomic calculation performed for Al 3s2 3p1
+ 
+ Converged in 16 iterations to a total energy of -192.9803 eV
+ 
+ 
+ Pseudo atomic calculation performed for Si 3s2 3p2
+ 
+ Converged in 17 iterations to a total energy of -215.5380 eV
+ 
+ 
+ Pseudo atomic calculation performed for Te 5s2 5p4
+ 
+ Converged in 17 iterations to a total energy of -568.4201 eV
+ 
+Initialising basis set for model.
+Reinitialising basis set for current geometry.
+Continuing from previous run with ground state wavefunction.
+Continuing from previous run with ground state density.
+ Info: CALCULATE_STRESS modified from T to F
+ Info: BACKUP_INTERVAL modified from          0 to        900
+ Info: ELEC_ENERGY_TOL modified from    0.5000000000000000E-06 eV to    0.1000000000000000E-09 eV
+ Info: ELEC_EIGENVALUE_TOL modified from    0.2000000000000000E-06 eV to    0.1000000000000000E-08 eV
+ Info: BS_MAX_ITER modified from         60 to        250
+ Info: BS_EIGENVALUE_TOL modified from    0.1000000000000000E-05 eV to    0.1000000000000000E-08 eV
+ Info: PHONON_MAX_CYCLES modified from         50 to        100
+ Info: PHONON_FORCE_CONSTANT_CUTOFF modified from     0.000000000000000     A to     10.28609375475886     A
+ Info: PHONON_FINE_METHOD modified from NONE to interpolate
+ Info: PHONON_CALC_LO_TO_SPLITTING modified from T to F
+ Info: SPECTRAL_WRITE_EIGENVALUES modified from T to F
+ 
+ WARNING: Ground state wavefunctions and density data in check file marked as unconverged.
+          because some parameters changed on continuation.
+ 
+ Calculation parallelised over 48 processes.
+ Data is distributed by G-vector(24-way) and k-point(2-way)
+
+ ************************************ Title ************************************
+ CASTEP calculation from Materials Studio
+
+ ***************************** General Parameters ******************************
+  
+ output verbosity                               : normal  (1)
+ continuing from                                : AlSiTe3_PhonDOS.check
+ write checkpoint data to                       : AlSiTe3_PhonDOS.check
+ type of calculation                            : phonon calculation
+ stress calculation                             : off
+ density difference calculation                 : off
+ electron localisation func (ELF) calculation   : off
+ Hirshfeld analysis                             : off
+ unlimited duration calculation
+ timing information                             : on
+ memory usage estimate                          : on
+ write final potential to formatted file        : off
+ write final density to formatted file          : off
+ write BibTeX reference list                    : on
+ write OTFG pseudopotential files               : on
+ checkpoint writing                             : both castep_bin and check files
+  
+ output         length unit                     : A
+ output           mass unit                     : amu
+ output           time unit                     : ps
+ output         charge unit                     : e
+ output           spin unit                     : hbar/2
+ output         energy unit                     : eV
+ output          force unit                     : eV/A
+ output       velocity unit                     : A/ps
+ output       pressure unit                     : GPa
+ output     inv_length unit                     : 1/A
+ output      frequency unit                     : cm-1
+ output force constant unit                     : eV/A**2
+ output         volume unit                     : A**3
+ output   IR intensity unit                     : (D/A)**2/amu
+ output         dipole unit                     : D
+ output         efield unit                     : eV/A/e
+ output        entropy unit                     : J/mol/K
+  
+ wavefunctions paging                           : none
+ random number generator seed                   :  193323897
+ data distribution                              : optimal for this architecture
+ optimization strategy                          : maximize speed(+++)
+
+ *********************** Exchange-Correlation Parameters ***********************
+  
+ using functional                               : Perdew Burke Ernzerhof
+ relativistic treatment                         : Koelling-Harmon
+ DFT+D: Semi-empirical dispersion correction    : off
+
+ ************************* Pseudopotential Parameters **************************
+  
+ pseudopotential representation                 : reciprocal space
+ <beta|phi> representation                      : reciprocal space
+ spin-orbit coupling                            : off
+
+ **************************** Basis Set Parameters *****************************
+  
+ plane wave basis set cut-off                   :   280.0000   eV
+ size of standard grid                          :     2.0000
+ size of   fine   grid                          :     3.0000
+ size of   fine   gmax                          :    25.7181   1/A
+ largest prime factor in FFT                    :          5
+ finite basis set correction                    : automatic
+ number of sample energies                      :          3
+           sample  spacing                      :     5.0000   eV
+
+ **************************** Electronic Parameters ****************************
+  
+ number of  electrons                           :  50.00    
+ net charge of system                           :  0.000    
+ treating system as non-spin-polarized
+ number of bands                                :         25
+
+ ********************* Electronic Minimization Parameters **********************
+  
+ Method: Treating system as non-metallic,
+         and number of  SD  steps               :          1
+         and number of  CG  steps               :          4
+  
+ total energy / atom convergence tol.           : 0.1000E-09   eV
+ eigen-energy convergence tolerance             : 0.1000E-08   eV
+ max force / atom convergence tol.              : ignored
+ convergence tolerance window                   :          3   cycles
+ max. number of SCF cycles                      :       9999
+ periodic dipole correction                     : NONE
+
+ ************************** Density Mixing Parameters **************************
+  
+ density-mixing scheme                          : Pulay
+ max. length of mixing history                  :         20
+ charge density mixing amplitude                : 0.5000    
+ cut-off energy for mixing                      :  280.0       eV
+ charge density mixing g-vector                 :  1.500       1/A
+
+ ****************************** Phonon Parameters ******************************
+  
+ phonon calculation method                      : linear response
+ phonon convergence tolerance                   : 0.1000E-04   eV/A**2
+ max. number of phonon cycles                   :        100
+ max. number of phonon CG steps                 :          0
+ convergence tolerance window                   :          2   cycles
+ DFPT solver method                             : AllBands (Gonze variational method)
+ preconditioning scheme                         : TPA     
+ fine phonon calculation method                 : interpolation
+ non-periodic force constant method             : Weighted cumulant sum
+ force constant cutoff scale factor             :     1.0000
+ LO/TO splitting term                           : not included
+ acoustic phonon sum rule                       : correct D(q) in recip-space
+ Born effective charges                         : calculated
+ Born charge sum rule                           : explicitly enforced
+ Raman intensities                              : not calculated
+ phonon k-points                                : use reduced set
+ phonon DOS                                     : not calculated
+ backups results every                          :        900   seconds
+ band convergence tolerance                     : 0.1000E-08   eV
+
+ *******************************************************************************
+  
+ 
+                           -------------------------------
+                                      Unit Cell
+                           -------------------------------
+        Real Lattice(A)                      Reciprocal Lattice(1/A)
+   5.9866164  -3.4563746   0.0000000        1.0495387  -0.0000000  -0.0000000
+   0.0000000   6.9127491  -0.0000000        0.5247693   0.9089271   0.0000000
+   0.0000000  -0.0000000   7.6945147       -0.0000000   0.0000000   0.8165798
+ 
+                       Lattice parameters(A)       Cell Angles
+                    a =    6.912749          alpha =   90.000000
+                    b =    6.912749          beta  =   90.000000
+                    c =    7.694515          gamma =  120.000000
+ 
+                       Current cell volume =  318.429622       A**3
+ 
+                           -------------------------------
+                                     Cell Contents
+                           -------------------------------
+                         Total number of ions in cell =   10
+                      Total number of species in cell =    3
+                        Max number of any one species =    6
+ 
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            x  Element    Atom        Fractional coordinates of atoms  x
+            x            Number           u          v          w      x
+            x----------------------------------------------------------x
+            x  Al           1         0.666667   0.333333   0.500000   x 
+            x  Al           2        -0.666667  -0.333333  -0.500000   x 
+            x  Si           1        -0.000000   0.000000   0.350403   x 
+            x  Si           2         0.000000   0.000000  -0.350403   x 
+            x  Te           1        -0.000000   0.643928   0.730371   x 
+            x  Te           2        -0.643928  -0.643928   0.730371   x 
+            x  Te           3         0.643928   0.000000   0.730371   x 
+            x  Te           4        -0.643928   0.000000  -0.730371   x 
+            x  Te           5         0.643928   0.643928  -0.730371   x 
+            x  Te           6        -0.000000  -0.643928  -0.730371   x 
+            xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+ 
+ 
+                         No user defined ionic velocities
+ 
+                           -------------------------------
+                                   Details of Species
+                           -------------------------------
+ 
+                               Mass of species in AMU
+                                    Al   26.9820004
+                                    Si   28.0849991
+                                    Te  127.5999985
+ 
+                          Electric Quadrupole Moment (Barn)
+                                    Al    0.1466000 Isotope 27
+                                    Si    1.0000000 No Isotope Defined
+                                    Te    1.0000000 No Isotope Defined
+ 
+                          Files used for pseudopotentials:
+                                    Al 1|1.6|5|7|9|30N:31L:32N[]
+                                    Si 1|1.6|6|7|9|30N:31L:32N[]
+                                    Te 2|2.2|4.8|7.4|9.2|50N:51N[]
+ 
+                           -------------------------------
+                              k-Points For BZ Sampling
+                           -------------------------------
+                       MP grid size for SCF calculation is  2  2  2
+                            with an offset of   0.250  0.250  0.000
+                       Number of kpoints used =             2
+ 
+                           -------------------------------
+                               Symmetry and Constraints
+                           -------------------------------
+ 
+                      Maximum deviation from symmetry = 0.457252E-14     ANG
+ 
+                      Number of symmetry operations   =          12
+         There are no ionic constraints specified or generated for this cell
+                      Point group of crystal =    20: D3d, -3m, -3 2/m
+                      Space group of crystal =   162: P-31m, -P 3 2
+ 
+             Set iprint > 1 for details on symmetry rotations/translations
+ 
+                         Centre of mass is NOT constrained
+ 
+                         Number of cell constraints= 4
+                         Cell constraints are:  1 1 3 0 0 0
+ 
+                         External pressure/stress (GPa)
+                          0.00000   0.00000   0.00000
+                                    0.00000   0.00000
+                                              0.00000
+  
++---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+|                                                     Memory          Disk    |
+| Baseline code, static data and system overhead        0.0 MB         0.0 MB |
+| BLAS internal memory storage                          0.0 MB         0.0 MB |
+| Model and support data                                8.4 MB         0.0 MB |
+| Electronic energy minimisation requirements           1.1 MB         0.0 MB |
+| Force calculation requirements                        1.4 MB         0.0 MB |
+|                                               ----------------------------- |
+| Approx. total storage required per process            9.8 MB         0.0 MB |
+|                                                                             |
+| Requirements will fluctuate during execution and may exceed these estimates |
++-----------------------------------------------------------------------------+
+------------------------------------------------------------------------ <-- SCF
+SCF loop      Energy                           Energy gain       Timer   <-- SCF
+                                               per atom          (sec)   <-- SCF
+------------------------------------------------------------------------ <-- SCF
+Initial  -4.26729905E+003                                         25.02  <-- SCF
+      1  -4.26729881E+003                   -2.39645884E-005      25.12  <-- SCF
+      2  -4.26729881E+003                    2.82984894E-010      25.20  <-- SCF
+      3  -4.26729881E+003                   -5.07733214E-010      25.30  <-- SCF
+      4  -4.26729881E+003                    3.69682370E-010      25.38  <-- SCF
+      5  -4.26729881E+003                   -3.48027336E-011      25.45  <-- SCF
+      6  -4.26729881E+003                    6.77570554E-010      25.53  <-- SCF
+      7  -4.26729881E+003                   -6.43618554E-010      25.61  <-- SCF
+      8  -4.26729881E+003                   -9.89944423E-012      25.69  <-- SCF
+      9  -4.26729881E+003                    2.65274170E-011      25.78  <-- SCF
+------------------------------------------------------------------------ <-- SCF
+ 
+Final energy =  -4267.298808263     eV
+(energy not corrected for finite basis set)
+ 
+ Total energy corrected for finite basis set =   -4267.313349 eV
+
+Writing analysis data to AlSiTe3_PhonDOS.castep_bin
+
+Writing model to AlSiTe3_PhonDOS.check
+
+ Efield perturbation    1:  X                                            26.39s
+  Parallel strategy changed for perturbation using 3 k-points
+  Data is distributed by G-vector(16-way) and k-point(3-way) and band(1-way)
+  +---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+  |                                                     Memory          Disk    |
+  | Baseline code, static data and system overhead        0.0 MB         0.0 MB |
+  | BLAS internal memory storage                          0.0 MB         0.0 MB |
+  | Model and support data                                8.5 MB         0.0 MB |
+  | DFPT E-field response requirements                    2.2 MB         0.0 MB |
+  |                                               ----------------------------- |
+  | Approx. total storage required per process           10.6 MB         0.0 MB |
+  |                                                                             |
+  | Requirements will fluctuate during execution and may exceed these estimates |
+  +-----------------------------------------------------------------------------+
+
+ Efield perturbation    2:  Z                                            32.28s
+  Parallel strategy changed for perturbation using 2 k-points
+  Data is distributed by G-vector(24-way) and k-point(2-way) and band(1-way)
+ Perturbation    1 (of    7): Al    1 X at q=( 0.000, 0.000, 0.000):     35.83s
+  Parallel strategy changed for perturbation using 3 k-points
+  Data is distributed by G-vector(16-way) and k-point(3-way) and band(1-way)
+  +---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+  |                                                     Memory          Disk    |
+  | Baseline code, static data and system overhead        0.0 MB         0.0 MB |
+  | BLAS internal memory storage                          0.0 MB         0.0 MB |
+  | Model and support data                                8.5 MB         0.0 MB |
+  | DFPT phonon calculation requirements                  2.5 MB         0.0 MB |
+  |                                               ----------------------------- |
+  | Approx. total storage required per process           11.0 MB         0.0 MB |
+  |                                                                             |
+  | Requirements will fluctuate during execution and may exceed these estimates |
+  +-----------------------------------------------------------------------------+
+ Perturbation    2 (of    7): Si    1 X at q=( 0.000, 0.000, 0.000):     40.56s
+  Parallel strategy changed for perturbation using 4 k-points
+  Data is distributed by G-vector(12-way) and k-point(4-way) and band(1-way)
+  +---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+  |                                                     Memory          Disk    |
+  | Baseline code, static data and system overhead        0.0 MB         0.0 MB |
+  | BLAS internal memory storage                          0.0 MB         0.0 MB |
+  | Model and support data                                8.5 MB         0.0 MB |
+  | DFPT phonon calculation requirements                  3.3 MB         0.0 MB |
+  |                                               ----------------------------- |
+  | Approx. total storage required per process           11.8 MB         0.0 MB |
+  |                                                                             |
+  | Requirements will fluctuate during execution and may exceed these estimates |
+  +-----------------------------------------------------------------------------+
+ Perturbation    3 (of    7): Te    1 X at q=( 0.000, 0.000, 0.000):     45.48s
+ Perturbation    4 (of    7): Te    1 Y at q=( 0.000, 0.000, 0.000):     50.58s
+  Parallel strategy changed for perturbation using 3 k-points
+  Data is distributed by G-vector(16-way) and k-point(3-way) and band(1-way)
+ Perturbation    5 (of    7): Al    1 Z at q=( 0.000, 0.000, 0.000):     55.58s
+  Parallel strategy changed for perturbation using 2 k-points
+  Data is distributed by G-vector(24-way) and k-point(2-way) and band(1-way)
+ Perturbation    6 (of    7): Si    1 Z at q=( 0.000, 0.000, 0.000):     58.50s
+ Perturbation    7 (of    7): Te    1 Z at q=( 0.000, 0.000, 0.000):     62.02s
+  Parallel strategy changed for perturbation using 3 k-points
+  Data is distributed by G-vector(16-way) and k-point(3-way) and band(1-way)
+
+ Phonon calculation: q-point   1 (of    7) (-0.333,-0.333, 0.000):       66.72s
+ -------------------------------------------------------------------------------
+ Perturbation    1 (of    9): Al    1 X at q=(-0.333,-0.333, 0.000):     66.73s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+  +---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+  |                                                     Memory          Disk    |
+  | Baseline code, static data and system overhead        0.0 MB         0.0 MB |
+  | BLAS internal memory storage                          0.0 MB         0.0 MB |
+  | Model and support data                                8.5 MB         0.0 MB |
+  | DFPT phonon calculation requirements                  6.3 MB         0.0 MB |
+  |                                               ----------------------------- |
+  | Approx. total storage required per process           14.8 MB         0.0 MB |
+  |                                                                             |
+  | Requirements will fluctuate during execution and may exceed these estimates |
+  +-----------------------------------------------------------------------------+
+ Perturbation    2 (of    9): Si    1 X at q=(-0.333,-0.333, 0.000):     81.97s
+ Perturbation    3 (of    9): Te    1 X at q=(-0.333,-0.333, 0.000):     94.38s
+ Perturbation    4 (of    9): Te    4 X at q=(-0.333,-0.333, 0.000):    107.92s
+ Perturbation    5 (of    9): Te    1 Y at q=(-0.333,-0.333, 0.000):    124.05s
+ Perturbation    6 (of    9): Te    4 Y at q=(-0.333,-0.333, 0.000):    138.41s
+ Perturbation    7 (of    9): Al    1 Z at q=(-0.333,-0.333, 0.000):    153.45s
+ Perturbation    8 (of    9): Si    1 Z at q=(-0.333,-0.333, 0.000):    163.09s
+  Parallel strategy changed for perturbation using 6 k-points
+  Data is distributed by G-vector(8-way) and k-point(6-way) and band(1-way)
+ Perturbation    9 (of    9): Te    1 Z at q=(-0.333,-0.333, 0.000):    174.31s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+
+ Phonon calculation: q-point   2 (of    7) (-0.333,-0.333, 0.333):      188.80s
+ -------------------------------------------------------------------------------
+ Perturbation    1 (of    9): Al    1 X at q=(-0.333,-0.333, 0.333):    188.81s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+ Perturbation    2 (of    9): Si    1 X at q=(-0.333,-0.333, 0.333):    203.89s
+ Perturbation    3 (of    9): Te    1 X at q=(-0.333,-0.333, 0.333):    216.25s
+ Perturbation    4 (of    9): Te    4 X at q=(-0.333,-0.333, 0.333):    229.48s
+ Perturbation    5 (of    9): Te    1 Y at q=(-0.333,-0.333, 0.333):    245.56s
+ Perturbation    6 (of    9): Te    4 Y at q=(-0.333,-0.333, 0.333):    259.89s
+ Perturbation    7 (of    9): Al    1 Z at q=(-0.333,-0.333, 0.333):    274.44s
+ Perturbation    8 (of    9): Si    1 Z at q=(-0.333,-0.333, 0.333):    284.09s
+  Parallel strategy changed for perturbation using 6 k-points
+  Data is distributed by G-vector(8-way) and k-point(6-way) and band(1-way)
+ Perturbation    9 (of    9): Te    1 Z at q=(-0.333,-0.333, 0.333):    295.27s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+
+ Phonon calculation: q-point   3 (of    7) (-0.333, 0.333, 0.000):      309.81s
+ -------------------------------------------------------------------------------
+ Perturbation    1 (of   14): Al    1 X at q=(-0.333, 0.333, 0.000):    309.83s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+ Perturbation    2 (of   14): Si    1 X at q=(-0.333, 0.333, 0.000):    327.80s
+ Perturbation    3 (of   14): Te    1 X at q=(-0.333, 0.333, 0.000):    343.94s
+ Perturbation    4 (of   14): Te    2 X at q=(-0.333, 0.333, 0.000):    359.83s
+ Perturbation    5 (of   14): Te    3 X at q=(-0.333, 0.333, 0.000):    375.36s
+ Perturbation    6 (of   14): Al    1 Y at q=(-0.333, 0.333, 0.000):    390.44s
+ Perturbation    7 (of   14): Si    1 Y at q=(-0.333, 0.333, 0.000):    404.38s
+ Perturbation    8 (of   14): Te    1 Y at q=(-0.333, 0.333, 0.000):    418.52s
+ Perturbation    9 (of   14): Te    2 Y at q=(-0.333, 0.333, 0.000):    432.25s
+ Perturbation   10 (of   14): Te    3 Y at q=(-0.333, 0.333, 0.000):    446.14s
+ Perturbation   11 (of   14): Al    1 Z at q=(-0.333, 0.333, 0.000):    459.14s
+ Perturbation   12 (of   14): Si    1 Z at q=(-0.333, 0.333, 0.000):    469.59s
+ Perturbation   13 (of   14): Te    1 Z at q=(-0.333, 0.333, 0.000):    481.12s
+ Perturbation   14 (of   14): Te    2 Z at q=(-0.333, 0.333, 0.000):    492.75s
+
+ Phonon calculation: q-point   4 (of    7) ( 0.000, 0.000,-0.333):      503.59s
+ -------------------------------------------------------------------------------
+ Perturbation    1 (of    9): Al    1 X at q=( 0.000, 0.000,-0.333):    503.61s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+  +---------------- MEMORY AND SCRATCH DISK ESTIMATES PER PROCESS --------------+
+  |                                                     Memory          Disk    |
+  | Baseline code, static data and system overhead        0.0 MB         0.0 MB |
+  | BLAS internal memory storage                          0.0 MB         0.0 MB |
+  | Model and support data                                8.5 MB         0.0 MB |
+  | DFPT phonon calculation requirements                  6.4 MB         0.0 MB |
+  |                                               ----------------------------- |
+  | Approx. total storage required per process           14.8 MB         0.0 MB |
+  |                                                                             |
+  | Requirements will fluctuate during execution and may exceed these estimates |
+  +-----------------------------------------------------------------------------+
+ Perturbation    2 (of    9): Si    1 X at q=( 0.000, 0.000,-0.333):    518.70s
+ Perturbation    3 (of    9): Te    1 X at q=( 0.000, 0.000,-0.333):    531.59s
+ Perturbation    4 (of    9): Te    4 X at q=( 0.000, 0.000,-0.333):    545.00s
+ Perturbation    5 (of    9): Te    1 Y at q=( 0.000, 0.000,-0.333):    560.66s
+  Parallel strategy changed for perturbation using 6 k-points
+  Data is distributed by G-vector(8-way) and k-point(6-way) and band(1-way)
+ Perturbation    6 (of    9): Te    4 Y at q=( 0.000, 0.000,-0.333):    573.39s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+ Perturbation    7 (of    9): Al    1 Z at q=( 0.000, 0.000,-0.333):    590.81s
+  Parallel strategy changed for perturbation using 4 k-points
+  Data is distributed by G-vector(12-way) and k-point(4-way) and band(1-way)
+ Perturbation    8 (of    9): Si    1 Z at q=( 0.000, 0.000,-0.333):    597.66s
+ Perturbation    9 (of    9): Te    1 Z at q=( 0.000, 0.000,-0.333):    604.48s
+  Parallel strategy changed for perturbation using 6 k-points
+  Data is distributed by G-vector(8-way) and k-point(6-way) and band(1-way)
+
+ Phonon calculation: q-point   5 (of    7) ( 0.000, 0.000, 0.000):      616.47s
+ -------------------------------------------------------------------------------
+
+ Phonon calculation: q-point   6 (of    7) ( 0.333,-0.333, 0.333):      616.47s
+ -------------------------------------------------------------------------------
+ Perturbation    1 (of   15): Al    1 X at q=( 0.333,-0.333, 0.333):    616.48s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+ Perturbation    2 (of   15): Si    1 X at q=( 0.333,-0.333, 0.333):    634.78s
+ Perturbation    3 (of   15): Te    1 X at q=( 0.333,-0.333, 0.333):    650.67s
+ Perturbation    4 (of   15): Te    2 X at q=( 0.333,-0.333, 0.333):    666.27s
+ Perturbation    5 (of   15): Te    3 X at q=( 0.333,-0.333, 0.333):    681.58s
+ Perturbation    6 (of   15): Al    1 Y at q=( 0.333,-0.333, 0.333):    696.55s
+ Perturbation    7 (of   15): Si    1 Y at q=( 0.333,-0.333, 0.333):    710.12s
+ Perturbation    8 (of   15): Te    1 Y at q=( 0.333,-0.333, 0.333):    724.02s
+ Perturbation    9 (of   15): Te    2 Y at q=( 0.333,-0.333, 0.333):    737.50s
+ Perturbation   10 (of   15): Te    3 Y at q=( 0.333,-0.333, 0.333):    750.58s
+ Perturbation   11 (of   15): Al    1 Z at q=( 0.333,-0.333, 0.333):    763.45s
+ Perturbation   12 (of   15): Si    1 Z at q=( 0.333,-0.333, 0.333):    775.03s
+ Perturbation   13 (of   15): Te    1 Z at q=( 0.333,-0.333, 0.333):    786.84s
+ Perturbation   14 (of   15): Te    2 Z at q=( 0.333,-0.333, 0.333):    798.28s
+ Perturbation   15 (of   15): Te    3 Z at q=( 0.333,-0.333, 0.333):    809.39s
+
+ Phonon calculation: q-point   7 (of    7) ( 0.333, 0.333, 0.333):      820.17s
+ -------------------------------------------------------------------------------
+ Perturbation    1 (of    9): Al    1 X at q=( 0.333, 0.333, 0.333):    820.19s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+ Perturbation    2 (of    9): Si    1 X at q=( 0.333, 0.333, 0.333):    835.08s
+ Perturbation    3 (of    9): Te    1 X at q=( 0.333, 0.333, 0.333):    847.41s
+ Perturbation    4 (of    9): Te    4 X at q=( 0.333, 0.333, 0.333):    860.06s
+ Perturbation    5 (of    9): Te    1 Y at q=( 0.333, 0.333, 0.333):    875.48s
+ Perturbation    6 (of    9): Te    4 Y at q=( 0.333, 0.333, 0.333):    889.20s
+ Perturbation    7 (of    9): Al    1 Z at q=( 0.333, 0.333, 0.333):    903.59s
+ Perturbation    8 (of    9): Si    1 Z at q=( 0.333, 0.333, 0.333):    913.22s
+  Parallel strategy changed for perturbation using 6 k-points
+  Data is distributed by G-vector(8-way) and k-point(6-way) and band(1-way)
+ Perturbation    9 (of    9): Te    1 Z at q=( 0.333, 0.333, 0.333):    924.34s
+  Parallel strategy changed for perturbation using 8 k-points
+  Data is distributed by G-vector(6-way) and k-point(8-way) and band(1-way)
+
+Writing analysis data to AlSiTe3_PhonDOS.castep_bin
+
+Writing model to AlSiTe3_PhonDOS.check
+ 
+ ==============================================================================
+ +                           Vibrational Frequencies                          +
+ +                           -----------------------                          +
+ +                                                                            +
+ + Performing frequency calculation at  10 wavevectors (q-pts)                +
+ + ========================================================================== +
+ +                                                                            +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    1 ( -0.500000 -0.500000  0.375000)     0.0937500000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   0.268029 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1      40.922671   a                                                   + 
+ +     2      45.188411   b                                                   + 
+ +     3      60.836955   a                                                   + 
+ +     4      61.620735   b                                                   + 
+ +     5      61.952036   a                                                   + 
+ +     6      72.866495   b                                                   + 
+ +     7      76.424367   b                                                   + 
+ +     8      78.584104   a                                                   + 
+ +     9      79.365208   a                                                   + 
+ +    10      88.172849   b                                                   + 
+ +    11      90.647864   b                                                   + 
+ +    12      94.038128   a                                                   + 
+ +    13      95.826341   b                                                   + 
+ +    14      98.962335   b                                                   + 
+ +    15     102.639016   a                                                   + 
+ +    16     104.231363   a                                                   + 
+ +    17     109.581635   b                                                   + 
+ +    18     142.200902   b                                                   + 
+ +    19     191.847788   a                                                   + 
+ +    20     196.203121   b                                                   + 
+ +    21     202.658779   a                                                   + 
+ +    22     229.199337   b                                                   + 
+ +    23     231.785864   a                                                   + 
+ +    24     232.720626   b                                                   + 
+ +    25     251.948324   b                                                   + 
+ +    26     350.288219   a                                                   + 
+ +    27     355.709960   b                                                   + 
+ +    28     358.056307   a                                                   + 
+ +    29     366.430214   b                                                   + 
+ +    30     489.339963   b                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E   m                                                       +
+ +           | --------                                                       +
+ + a      13 |    1  -1                                                       +
+ + b      17 |    1   1                                                       +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    2 ( -0.500000 -0.500000  0.125000)     0.0937500000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   0.263569 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1      41.504102   a                                                   + 
+ +     2      45.358020   b                                                   + 
+ +     3      60.776789   b                                                   + 
+ +     4      61.077324   a                                                   + 
+ +     5      61.363400   a                                                   + 
+ +     6      73.080289   b                                                   + 
+ +     7      77.471384   b                                                   + 
+ +     8      78.578868   a                                                   + 
+ +     9      79.590116   a                                                   + 
+ +    10      88.101578   b                                                   + 
+ +    11      90.545489   b                                                   + 
+ +    12      94.015649   a                                                   + 
+ +    13      96.177290   b                                                   + 
+ +    14      98.969252   b                                                   + 
+ +    15     102.834914   a                                                   + 
+ +    16     103.942884   a                                                   + 
+ +    17     109.350490   b                                                   + 
+ +    18     142.230703   b                                                   + 
+ +    19     191.274565   a                                                   + 
+ +    20     196.289172   b                                                   + 
+ +    21     204.687980   a                                                   + 
+ +    22     229.398864   b                                                   + 
+ +    23     230.539614   a                                                   + 
+ +    24     238.700632   b                                                   + 
+ +    25     250.245148   b                                                   + 
+ +    26     349.230097   a                                                   + 
+ +    27     356.604644   b                                                   + 
+ +    28     360.204561   a                                                   + 
+ +    29     366.842690   b                                                   + 
+ +    30     488.858580   b                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E   m                                                       +
+ +           | --------                                                       +
+ + a      13 |    1  -1                                                       +
+ + b      17 |    1   1                                                       +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    3 ( -0.500000  0.250000  0.375000)     0.0937500000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   0.249999 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1      37.694223   a                                                   + 
+ +     2      49.044160   b                                                   + 
+ +     3      51.541718   b                                                   + 
+ +     4      63.000574   a                                                   + 
+ +     5      63.355501   b                                                   + 
+ +     6      64.879743   a                                                   + 
+ +     7      70.996118   b                                                   + 
+ +     8      74.177379   a                                                   + 
+ +     9      85.071935   b                                                   + 
+ +    10      87.179030   a                                                   + 
+ +    11      88.937139   b                                                   + 
+ +    12      90.833368   a                                                   + 
+ +    13      99.978721   a                                                   + 
+ +    14     103.157145   b                                                   + 
+ +    15     103.424936   a                                                   + 
+ +    16     106.405320   a                                                   + 
+ +    17     109.613649   b                                                   + 
+ +    18     140.984376   a                                                   + 
+ +    19     190.046136   b                                                   + 
+ +    20     196.298253   a                                                   + 
+ +    21     206.840876   b                                                   + 
+ +    22     211.420391   a                                                   + 
+ +    23     232.096644   b                                                   + 
+ +    24     238.257390   a                                                   + 
+ +    25     264.865010   a                                                   + 
+ +    26     352.761426   b                                                   + 
+ +    27     353.023215   a                                                   + 
+ +    28     363.141423   a                                                   + 
+ +    29     365.174475   b                                                   + 
+ +    30     488.904653   a                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E   m                                                       +
+ +           | --------                                                       +
+ + a      17 |    1   1                                                       +
+ + b      13 |    1  -1                                                       +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    4 ( -0.500000  0.250000  0.125000)     0.0937500000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   0.251298 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1      37.746145   a                                                   + 
+ +     2      48.989399   b                                                   + 
+ +     3      51.226869   b                                                   + 
+ +     4      62.713658   a                                                   + 
+ +     5      63.509202   b                                                   + 
+ +     6      65.435275   a                                                   + 
+ +     7      70.681123   b                                                   + 
+ +     8      73.653691   a                                                   + 
+ +     9      84.897394   b                                                   + 
+ +    10      87.226982   a                                                   + 
+ +    11      89.894835   b                                                   + 
+ +    12      91.133265   a                                                   + 
+ +    13      99.800025   a                                                   + 
+ +    14     102.767011   b                                                   + 
+ +    15     103.407708   a                                                   + 
+ +    16     106.776149   a                                                   + 
+ +    17     109.495180   b                                                   + 
+ +    18     140.900400   a                                                   + 
+ +    19     190.025813   b                                                   + 
+ +    20     196.621617   a                                                   + 
+ +    21     206.756214   b                                                   + 
+ +    22     213.682656   a                                                   + 
+ +    23     233.069879   b                                                   + 
+ +    24     237.963867   a                                                   + 
+ +    25     266.322457   a                                                   + 
+ +    26     352.382525   a                                                   + 
+ +    27     352.447277   b                                                   + 
+ +    28     364.809077   a                                                   + 
+ +    29     366.188550   b                                                   + 
+ +    30     488.378868   a                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E   m                                                       +
+ +           | --------                                                       +
+ + a      17 |    1   1                                                       +
+ + b      13 |    1  -1                                                       +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    5 ( -0.500000  0.250000 -0.125000)     0.0937500000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   0.247901 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1      38.323934   a                                                   + 
+ +     2      48.932249   b                                                   + 
+ +     3      51.298180   b                                                   + 
+ +     4      63.107350   a                                                   + 
+ +     5      63.797194   b                                                   + 
+ +     6      65.556666   a                                                   + 
+ +     7      70.461074   b                                                   + 
+ +     8      74.086015   a                                                   + 
+ +     9      84.555037   b                                                   + 
+ +    10      86.697721   a                                                   + 
+ +    11      89.921112   a                                                   + 
+ +    12      90.362593   b                                                   + 
+ +    13      99.887792   a                                                   + 
+ +    14     102.349143   b                                                   + 
+ +    15     103.181521   a                                                   + 
+ +    16     106.467225   a                                                   + 
+ +    17     109.403408   b                                                   + 
+ +    18     140.717251   a                                                   + 
+ +    19     190.266616   b                                                   + 
+ +    20     197.160488   a                                                   + 
+ +    21     207.663696   b                                                   + 
+ +    22     213.811504   a                                                   + 
+ +    23     234.034411   b                                                   + 
+ +    24     239.177721   a                                                   + 
+ +    25     269.902156   a                                                   + 
+ +    26     351.644855   a                                                   + 
+ +    27     352.138611   b                                                   + 
+ +    28     365.630875   a                                                   + 
+ +    29     366.020328   b                                                   + 
+ +    30     487.756074   a                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E   m                                                       +
+ +           | --------                                                       +
+ + a      17 |    1   1                                                       +
+ + b      13 |    1  -1                                                       +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    6 ( -0.500000  0.250000 -0.375000)     0.0937500000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   0.246651 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1      38.262683   a                                                   + 
+ +     2      49.002048   b                                                   + 
+ +     3      51.623077   b                                                   + 
+ +     4      63.386007   a                                                   + 
+ +     5      63.604823   b                                                   + 
+ +     6      64.996832   a                                                   + 
+ +     7      70.794910   b                                                   + 
+ +     8      74.620516   a                                                   + 
+ +     9      84.713781   b                                                   + 
+ +    10      86.629766   a                                                   + 
+ +    11      89.364317   b                                                   + 
+ +    12      89.620980   a                                                   + 
+ +    13     100.001874   a                                                   + 
+ +    14     102.794118   b                                                   + 
+ +    15     103.238260   a                                                   + 
+ +    16     106.091911   a                                                   + 
+ +    17     109.516989   b                                                   + 
+ +    18     140.804860   a                                                   + 
+ +    19     190.258967   b                                                   + 
+ +    20     196.846511   a                                                   + 
+ +    21     207.773292   b                                                   + 
+ +    22     211.562931   a                                                   + 
+ +    23     233.067176   b                                                   + 
+ +    24     239.501972   a                                                   + 
+ +    25     268.461350   a                                                   + 
+ +    26     352.127857   a                                                   + 
+ +    27     352.441575   b                                                   + 
+ +    28     364.103407   a                                                   + 
+ +    29     365.017161   b                                                   + 
+ +    30     488.280112   a                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E   m                                                       +
+ +           | --------                                                       +
+ + a      17 |    1   1                                                       +
+ + b      13 |    1  -1                                                       +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    7 (  0.250000  0.000000  0.375000)     0.1875000000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   0.745526 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1      24.430703   a                                                   + 
+ +     2      35.951683   a                                                   + 
+ +     3      52.862204   a                                                   + 
+ +     4      59.220188   a                                                   + 
+ +     5      72.288666   a                                                   + 
+ +     6      72.382743   a                                                   + 
+ +     7      80.743719   a                                                   + 
+ +     8      83.109808   a                                                   + 
+ +     9      84.641967   a                                                   + 
+ +    10      89.452777   a                                                   + 
+ +    11      89.574111   a                                                   + 
+ +    12      94.247234   a                                                   + 
+ +    13      97.878334   a                                                   + 
+ +    14     101.909952   a                                                   + 
+ +    15     103.255199   a                                                   + 
+ +    16     106.833020   a                                                   + 
+ +    17     111.172994   a                                                   + 
+ +    18     143.285395   a                                                   + 
+ +    19     194.741998   a                                                   + 
+ +    20     198.861944   a                                                   + 
+ +    21     210.328826   a                                                   + 
+ +    22     212.355852   a                                                   + 
+ +    23     230.340031   a                                                   + 
+ +    24     231.972547   a                                                   + 
+ +    25     273.355366   a                                                   + 
+ +    26     346.059253   a                                                   + 
+ +    27     350.390164   a                                                   + 
+ +    28     353.840771   a                                                   + 
+ +    29     358.804799   a                                                   + 
+ +    30     483.609351   a                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E                                                           +
+ +           | ----                                                           +
+ + a      30 |    1                                                           +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    8 (  0.250000  0.000000  0.125000)     0.1875000000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   0.806044 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1      22.505170   a                                                   + 
+ +     2      35.505716   a                                                   + 
+ +     3      53.373073   a                                                   + 
+ +     4      58.770266   a                                                   + 
+ +     5      72.084666   a                                                   + 
+ +     6      72.540129   a                                                   + 
+ +     7      81.201172   a                                                   + 
+ +     8      83.203430   a                                                   + 
+ +     9      84.255771   a                                                   + 
+ +    10      89.000403   a                                                   + 
+ +    11      90.349396   a                                                   + 
+ +    12      93.961289   a                                                   + 
+ +    13      97.756451   a                                                   + 
+ +    14     101.978058   a                                                   + 
+ +    15     102.749303   a                                                   + 
+ +    16     107.710195   a                                                   + 
+ +    17     111.082978   a                                                   + 
+ +    18     143.351063   a                                                   + 
+ +    19     194.497069   a                                                   + 
+ +    20     197.966144   a                                                   + 
+ +    21     210.967233   a                                                   + 
+ +    22     212.032886   a                                                   + 
+ +    23     230.888067   a                                                   + 
+ +    24     235.984334   a                                                   + 
+ +    25     271.486265   a                                                   + 
+ +    26     345.566241   a                                                   + 
+ +    27     350.576771   a                                                   + 
+ +    28     355.596212   a                                                   + 
+ +    29     358.531156   a                                                   + 
+ +    30     483.284720   a                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E                                                           +
+ +           | ----                                                           +
+ + a      30 |    1                                                           +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=    9 (  0.000000  0.000000  0.375000)     0.0312500000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   3.056555 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1       9.206895   a                                                   + 
+ +     2       9.206895   a                                                   + 
+ +     3      14.916819   b                                                   + 
+ +     4      67.820816   a                                                   + 
+ +     5      67.820816   a                                                   + 
+ +     6      71.564356   c                                                   + 
+ +     7      79.066681   a                                                   + 
+ +     8      79.066681   a                                                   + 
+ +     9      85.797074   a                                                   + 
+ +    10      85.797074   a                                                   + 
+ +    11      89.958245   b                                                   + 
+ +    12     101.488161   a                                                   + 
+ +    13     101.488161   a                                                   + 
+ +    14     103.552552   c                                                   + 
+ +    15     107.723388   b                                                   + 
+ +    16     109.637247   a                                                   + 
+ +    17     109.637247   a                                                   + 
+ +    18     145.773603   b                                                   + 
+ +    19     196.675363   b                                                   + 
+ +    20     207.036604   a                                                   + 
+ +    21     207.036604   a                                                   + 
+ +    22     207.612051   c                                                   + 
+ +    23     220.474326   a                                                   + 
+ +    24     220.474326   a                                                   + 
+ +    25     308.938462   b                                                   + 
+ +    26     346.895397   a                                                   + 
+ +    27     346.895397   a                                                   + 
+ +    28     348.328760   a                                                   + 
+ +    29     348.328760   a                                                   + 
+ +    30     476.325139   b                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E   3   m                                                   +
+ +           | ------------                                                   +
+ + a      10 |    2  -1   0                                                   +
+ + b       7 |    1   1   1                                                   +
+ + c       3 |    1   1  -1                                                   +
+ + -------------------------------------------------------------------------- +
+ +  q-pt=   10 (  0.000000  0.000000  0.125000)     0.0312500000              +
+ + -------------------------------------------------------------------------- +
+ +  Acoustic sum rule correction <   3.115213 cm-1 applied                    +
+ +     N      Frequency irrep.                                                + 
+ +                (cm-1)                                                      + 
+ +                                                                            +
+ +     1       3.809881   a                                                   + 
+ +     2       3.809881   a                                                   + 
+ +     3       6.950645   b                                                   + 
+ +     4      67.721541   a                                                   + 
+ +     5      67.721541   a                                                   + 
+ +     6      71.031426   c                                                   + 
+ +     7      78.859745   a                                                   + 
+ +     8      78.859745   a                                                   + 
+ +     9      86.105087   a                                                   + 
+ +    10      86.105087   a                                                   + 
+ +    11      88.313703   b                                                   + 
+ +    12     101.531290   a                                                   + 
+ +    13     101.531290   a                                                   + 
+ +    14     103.510389   c                                                   + 
+ +    15     107.887641   b                                                   + 
+ +    16     109.472616   a                                                   + 
+ +    17     109.472616   a                                                   + 
+ +    18     145.872069   b                                                   + 
+ +    19     195.982766   b                                                   + 
+ +    20     205.697093   a                                                   + 
+ +    21     205.697093   a                                                   + 
+ +    22     207.218265   c                                                   + 
+ +    23     218.458798   a                                                   + 
+ +    24     218.458798   a                                                   + 
+ +    25     308.860064   b                                                   + 
+ +    26     346.946780   a                                                   + 
+ +    27     346.946780   a                                                   + 
+ +    28     347.747649   a                                                   + 
+ +    29     347.747649   a                                                   + 
+ +    30     476.063459   b                                                   + 
+ + .......................................................................... +
+ +        Character table from group theory analysis of eigenvectors          +
+ +                           Point Group =  20, D3d                           +
+ + .......................................................................... +
+ +  Rep  Mul |    E   3   m                                                   +
+ +           | ------------                                                   +
+ + a      10 |    2  -1   0                                                   +
+ + b       7 |    1   1   1                                                   +
+ + c       3 |    1   1  -1                                                   +
+ ==============================================================================
+ ===================================================
+                   Born Effective Charges
+                   ----------------------
+   Al      1         3.91047     0.00000     0.00000
+                     0.00000     3.91047     0.00000
+                     0.00000    -0.00000     1.15013
+   Al      2         3.91047     0.00000     0.00000
+                     0.00000     3.91047     0.00000
+                     0.00000    -0.00000     1.15013
+   Si      1         1.80098     0.00000     0.00000
+                     0.00000     1.80098     0.00000
+                     0.00000    -0.00000     0.25515
+   Si      2         1.80098     0.00000     0.00000
+                     0.00000     1.80098     0.00000
+                     0.00000    -0.00000     0.25515
+   Te      1        -2.09615    -0.00000    -0.00000
+                    -0.00000    -1.71148    -0.05750
+                     0.00000    -0.50451    -0.46843
+   Te      2        -1.80765     0.16657     0.04980
+                     0.16657    -1.99998     0.02875
+                     0.43692     0.25225    -0.46843
+   Te      3        -1.80765    -0.16657    -0.04980
+                    -0.16657    -1.99998     0.02875
+                    -0.43692     0.25225    -0.46843
+   Te      4        -1.80765    -0.16657    -0.04980
+                    -0.16657    -1.99998     0.02875
+                    -0.43692     0.25225    -0.46843
+   Te      5        -1.80765     0.16657     0.04980
+                     0.16657    -1.99998     0.02875
+                     0.43692     0.25225    -0.46843
+   Te      6        -2.09615    -0.00000    -0.00000
+                    -0.00000    -1.71148    -0.05750
+                     0.00000    -0.50451    -0.46843
+ ===================================================
+ 
+ ***************** Symmetrised Forces *****************
+ *                                                    *
+ *            Cartesian components (eV/A)             *
+ * -------------------------------------------------- *
+ *                   x            y            z      *
+ *                                                    *
+ * Al        1      0.00000      0.00000      0.00000 *
+ * Al        2     -0.00000      0.00000      0.00000 *
+ * Si        1      0.00000      0.00000      0.00016 *
+ * Si        2      0.00000     -0.00000     -0.00016 *
+ * Te        1     -0.00000     -0.00345     -0.00897 *
+ * Te        2      0.00299      0.00172     -0.00897 *
+ * Te        3     -0.00299      0.00172     -0.00897 *
+ * Te        4      0.00299     -0.00172      0.00897 *
+ * Te        5     -0.00299     -0.00172      0.00897 *
+ * Te        6      0.00000      0.00345      0.00897 *
+ *                                                    *
+ ******************************************************
+
+Writing analysis data to AlSiTe3_PhonDOS.castep_bin
+
+Writing model to AlSiTe3_PhonDOS.check
+ 
+ A BibTeX formatted list of references used in this run has been written to 
+ AlSiTe3_PhonDOS.bib
+ 
+Initialisation time =     24.73 s
+Calculation time    =    914.33 s
+Finalisation time   =      0.28 s
+Total time          =    939.34 s
+  
+Overall parallel efficiency rating: Mediocre (51%)                              
+  
+Data was distributed by:-
+G-vector (24-way); efficiency rating: Mediocre (53%)                            
+k-point (2-way); efficiency rating: Excellent (91%)                             
+                             Thermodynamics
+                             ==============
+ 
+            Zero-point energy =         0.306837  eV
+ ------------------------------------------------------------------------------ 
+       T(K)        E(eV)           F(eV)         S(J/mol/K)      Cv(J/mol/K)   
+ ------------------------------------------------------------------------------ 
+     298.0        0.829036       -0.338136         377.903         231.927     
+ ------------------------------------------------------------------------------ 
+ 
+ ==============================================================================
+                      Atomic Displacement Parameters (A**2)
+                      ==============================
+ 
+ ------------------------------------------------------------------------------ 
+      T(K)  Ion        U11       U22       U33       U23       U31       U12    
+ ------------------------------------------------------------------------------ 
+     298.0  Al 1     0.030305  0.030305  0.026348  0.000000  0.000000  0.000000
+     298.0  Al 2     0.030305  0.030305  0.026348  0.000000  0.000000  0.000000
+     298.0  Si 1     0.028620  0.028620  0.018950  0.000000  0.000000  0.000000
+     298.0  Si 2     0.028620  0.028620  0.018950  0.000000  0.000000  0.000000
+     298.0  Te 1     0.030427  0.028827  0.020741  0.001772  0.000000  0.000000
+     298.0  Te 2     0.029227  0.030027  0.020741 -0.000886 -0.001535 -0.000693
+     298.0  Te 3     0.029227  0.030027  0.020741 -0.000886  0.001535  0.000693
+     298.0  Te 4     0.029227  0.030027  0.020741 -0.000886  0.001535  0.000693
+     298.0  Te 5     0.029227  0.030027  0.020741 -0.000886 -0.001535 -0.000693
+     298.0  Te 6     0.030427  0.028827  0.020741  0.001772  0.000000  0.000000
+ ------------------------------------------------------------------------------ 
+ 
+ 

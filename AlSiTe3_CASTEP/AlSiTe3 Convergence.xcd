@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="latin1"?>
+<!DOCTYPE XCD []>
+<XCD Version="17.1" NumCharts="1">
+	<CHART_2D>
+		<DATA_2D NumSeries="8">
+			<SERIES_2D UniqueID="0" Name="Energy Change (eV/atom)" NumPoints="38">
+				<POINT_2D XY="2,-3.02314044825239" ItemData="2"/>
+				<POINT_2D XY="3,-6" ItemData="3"/>
+				<POINT_2D XY="4,-6" ItemData="4"/>
+				<POINT_2D XY="5,-4.495796184964091" ItemData="5"/>
+				<POINT_2D XY="6,-4.18899356809986" ItemData="6"/>
+				<POINT_2D XY="7,-4.475384384203299" ItemData="7"/>
+				<POINT_2D XY="8,-4.774163680611402" ItemData="8"/>
+				<POINT_2D XY="9,-4.047834322654183" ItemData="9"/>
+				<POINT_2D XY="10,-3.886118455536635" ItemData="10"/>
+				<POINT_2D XY="11,-5.309343634559711" ItemData="11"/>
+				<POINT_2D XY="12,-5.012070066124496" ItemData="12"/>
+				<POINT_2D XY="13,-5.357730609856056" ItemData="13"/>
+				<POINT_2D XY="14,-4.911477649663622" ItemData="14"/>
+				<POINT_2D XY="15,-4.911477649663622" ItemData="15"/>
+				<POINT_2D XY="16,-4.911477649663622" ItemData="16"/>
+				<POINT_2D XY="17,-5.306777441952424" ItemData="17"/>
+				<POINT_2D XY="18,-4.723027453449217" ItemData="18"/>
+				<POINT_2D XY="19,-5.552244139669208" ItemData="19"/>
+				<POINT_2D XY="20,-6" ItemData="20"/>
+				<POINT_2D XY="21,-4.917474925440589" ItemData="21"/>
+				<POINT_2D XY="22,-4.502845655753793" ItemData="22"/>
+				<POINT_2D XY="23,-4.788620721960007" ItemData="23"/>
+				<POINT_2D XY="24,-5.05578183449975" ItemData="24"/>
+				<POINT_2D XY="25,-4.153329438157797" ItemData="25"/>
+				<POINT_2D XY="26,-4.153329438157797" ItemData="26"/>
+				<POINT_2D XY="27,-4.153329438157797" ItemData="27"/>
+				<POINT_2D XY="28,-4.135720960622773" ItemData="28"/>
+				<POINT_2D XY="29,-3.923583131732363" ItemData="29"/>
+				<POINT_2D XY="30,-5.428738034376006" ItemData="30"/>
+				<POINT_2D XY="31,-5.414084909093189" ItemData="31"/>
+				<POINT_2D XY="32,-5.558393774246847" ItemData="32"/>
+				<POINT_2D XY="33,-5.014353829385695" ItemData="33"/>
+				<POINT_2D XY="34,-4.695679043897173" ItemData="34"/>
+				<POINT_2D XY="35,-3.669466304873449" ItemData="35"/>
+				<POINT_2D XY="36,-3.586178557581916" ItemData="36"/>
+				<POINT_2D XY="37,-3.586178557581916" ItemData="37"/>
+				<POINT_2D XY="38,-4.326278332880489" ItemData="38"/>
+				<POINT_2D XY="39,-5.523778666598114" ItemData="39"/>
+			</SERIES_2D>
+			<SERIES_2D UniqueID="1" Name="Max. Displacement (Å)" NumPoints="38">
+				<POINT_2D XY="2,-2.671055773137268" ItemData="2"/>
+				<POINT_2D XY="3,-2.671055773137268" ItemData="3"/>
+				<POINT_2D XY="4,-2.671055773137268" ItemData="4"/>
+				<POINT_2D XY="5,-3.911285709759285" ItemData="5"/>
+				<POINT_2D XY="6,-3.259801583847102" ItemData="6"/>
+				<POINT_2D XY="7,-3.090466755771453" ItemData="7"/>
+				<POINT_2D XY="8,-2.63254847015576" ItemData="8"/>
+				<POINT_2D XY="9,-2.424796793331769" ItemData="9"/>
+				<POINT_2D XY="10,-3.200426786186334" ItemData="10"/>
+				<POINT_2D XY="11,-3.58219810282796" ItemData="11"/>
+				<POINT_2D XY="12,-3.430434387590259" ItemData="12"/>
+				<POINT_2D XY="13,-2.543181685830995" ItemData="13"/>
+				<POINT_2D XY="14,-2.725449153492711" ItemData="14"/>
+				<POINT_2D XY="15,-2.725449153492711" ItemData="15"/>
+				<POINT_2D XY="16,-2.725449153492711" ItemData="16"/>
+				<POINT_2D XY="17,-6" ItemData="17"/>
+				<POINT_2D XY="18,-5.263208270418956" ItemData="18"/>
+				<POINT_2D XY="19,-5.773686282167331" ItemData="19"/>
+				<POINT_2D XY="20,-5.70581913511178" ItemData="20"/>
+				<POINT_2D XY="21,-4.138544390570501" ItemData="21"/>
+				<POINT_2D XY="22,-3.618887808576979" ItemData="22"/>
+				<POINT_2D XY="23,-3.670972700363721" ItemData="23"/>
+				<POINT_2D XY="24,-3.199851243393958" ItemData="24"/>
+				<POINT_2D XY="25,-2.409936871743144" ItemData="25"/>
+				<POINT_2D XY="26,-2.409936871743144" ItemData="26"/>
+				<POINT_2D XY="27,-2.409936871743144" ItemData="27"/>
+				<POINT_2D XY="28,-3.756057823387835" ItemData="28"/>
+				<POINT_2D XY="29,-3.585786998504605" ItemData="29"/>
+				<POINT_2D XY="30,-5.092939710376221" ItemData="30"/>
+				<POINT_2D XY="31,-4.988365706698503" ItemData="31"/>
+				<POINT_2D XY="32,-4.884791354995122" ItemData="32"/>
+				<POINT_2D XY="33,-4.390873749970504" ItemData="33"/>
+				<POINT_2D XY="34,-4.16824338728566" ItemData="34"/>
+				<POINT_2D XY="35,-2.605112142373952" ItemData="35"/>
+				<POINT_2D XY="36,-2.524122752250079" ItemData="36"/>
+				<POINT_2D XY="37,-2.524122752250079" ItemData="37"/>
+				<POINT_2D XY="38,-5.650033588833972" ItemData="38"/>
+				<POINT_2D XY="39,-6" ItemData="39"/>
+			</SERIES_2D>
+			<SERIES_2D UniqueID="2" Name="Max. Force (eV/Å)" NumPoints="38">
+				<POINT_2D XY="2,-0.9591287811624648" ItemData="2"/>
+				<POINT_2D XY="3,-0.9591287811624648" ItemData="3"/>
+				<POINT_2D XY="4,-0.9591287811624648" ItemData="4"/>
+				<POINT_2D XY="5,-0.9692845355630461" ItemData="5"/>
+				<POINT_2D XY="6,-1.0254452023356" ItemData="6"/>
+				<POINT_2D XY="7,-1.101672116323768" ItemData="7"/>
+				<POINT_2D XY="8,-1.425029472179851" ItemData="8"/>
+				<POINT_2D XY="9,-1.533578316194499" ItemData="9"/>
+				<POINT_2D XY="10,-1.615875712883919" ItemData="10"/>
+				<POINT_2D XY="11,-1.628980189988776" ItemData="11"/>
+				<POINT_2D XY="12,-1.625512125526736" ItemData="12"/>
+				<POINT_2D XY="13,-1.696980288973258" ItemData="13"/>
+				<POINT_2D XY="14,-1.775196914530292" ItemData="14"/>
+				<POINT_2D XY="15,-1.775196914530292" ItemData="15"/>
+				<POINT_2D XY="16,-1.775196914530292" ItemData="16"/>
+				<POINT_2D XY="17,-1.720608911414203" ItemData="17"/>
+				<POINT_2D XY="18,-1.841441516431973" ItemData="18"/>
+				<POINT_2D XY="19,-1.920152984404962" ItemData="19"/>
+				<POINT_2D XY="20,-1.870465424843663" ItemData="20"/>
+				<POINT_2D XY="21,-1.787840372522057" ItemData="21"/>
+				<POINT_2D XY="22,-1.81613394480839" ItemData="22"/>
+				<POINT_2D XY="23,-1.900865504673434" ItemData="23"/>
+				<POINT_2D XY="24,-1.863247416693318" ItemData="24"/>
+				<POINT_2D XY="25,-1.537546445912309" ItemData="25"/>
+				<POINT_2D XY="26,-1.537546445912309" ItemData="26"/>
+				<POINT_2D XY="27,-1.537546445912309" ItemData="27"/>
+				<POINT_2D XY="28,-1.172972933264727" ItemData="28"/>
+				<POINT_2D XY="29,-1.835954233518357" ItemData="29"/>
+				<POINT_2D XY="30,-1.802686905474863" ItemData="30"/>
+				<POINT_2D XY="31,-1.793006373036124" ItemData="31"/>
+				<POINT_2D XY="32,-1.868825800718818" ItemData="32"/>
+				<POINT_2D XY="33,-1.884690104157781" ItemData="33"/>
+				<POINT_2D XY="34,-1.792181237961686" ItemData="34"/>
+				<POINT_2D XY="35,-0.931377094216301" ItemData="35"/>
+				<POINT_2D XY="36,-1.900853406722708" ItemData="36"/>
+				<POINT_2D XY="37,-1.900853406722708" ItemData="37"/>
+				<POINT_2D XY="38,-1.988395727575636" ItemData="38"/>
+				<POINT_2D XY="39,-2.008798121388422" ItemData="39"/>
+			</SERIES_2D>
+			<SERIES_2D UniqueID="3" Name="Max. Stress (GPa)" NumPoints="38">
+				<POINT_2D XY="2,-1.452720524936771" ItemData="2"/>
+				<POINT_2D XY="3,-1.452720524936771" ItemData="3"/>
+				<POINT_2D XY="4,-1.452720524936771" ItemData="4"/>
+				<POINT_2D XY="5,-2.019381775448579" ItemData="5"/>
+				<POINT_2D XY="6,-1.276381395479711" ItemData="6"/>
+				<POINT_2D XY="7,-1.04304075943974" ItemData="7"/>
+				<POINT_2D XY="8,-0.8818364998051329" ItemData="8"/>
+				<POINT_2D XY="9,-1.066636286004367" ItemData="9"/>
+				<POINT_2D XY="10,-2.57464400070041" ItemData="10"/>
+				<POINT_2D XY="11,-1.846823789325214" ItemData="11"/>
+				<POINT_2D XY="12,-1.897390348076916" ItemData="12"/>
+				<POINT_2D XY="13,-1.827996680493362" ItemData="13"/>
+				<POINT_2D XY="14,-1.76989967594437" ItemData="14"/>
+				<POINT_2D XY="15,-1.76989967594437" ItemData="15"/>
+				<POINT_2D XY="16,-1.76989967594437" ItemData="16"/>
+				<POINT_2D XY="17,-1.704253282203148" ItemData="17"/>
+				<POINT_2D XY="18,-2.265695452453528" ItemData="18"/>
+				<POINT_2D XY="19,-2.244648899160867" ItemData="19"/>
+				<POINT_2D XY="20,-3.016752702037872" ItemData="20"/>
+				<POINT_2D XY="21,-2.005145130410213" ItemData="21"/>
+				<POINT_2D XY="22,-1.792936271266553" ItemData="22"/>
+				<POINT_2D XY="23,-1.548756695327162" ItemData="23"/>
+				<POINT_2D XY="24,-1.46512264804429" ItemData="24"/>
+				<POINT_2D XY="25,-1.335160380831548" ItemData="25"/>
+				<POINT_2D XY="26,-1.335160380831548" ItemData="26"/>
+				<POINT_2D XY="27,-1.335160380831548" ItemData="27"/>
+				<POINT_2D XY="28,-0.7667741044981798" ItemData="28"/>
+				<POINT_2D XY="29,-3.216646136720543" ItemData="29"/>
+				<POINT_2D XY="30,-2.542960573501393" ItemData="30"/>
+				<POINT_2D XY="31,-2.145058773728914" ItemData="31"/>
+				<POINT_2D XY="32,-2.238570307930933" ItemData="32"/>
+				<POINT_2D XY="33,-1.638298222433083" ItemData="33"/>
+				<POINT_2D XY="34,-1.987369852413359" ItemData="34"/>
+				<POINT_2D XY="35,-0.6657025023308083" ItemData="35"/>
+				<POINT_2D XY="36,-1.530161348653511" ItemData="36"/>
+				<POINT_2D XY="37,-1.530161348653511" ItemData="37"/>
+				<POINT_2D XY="38,-2.377279008803506" ItemData="38"/>
+				<POINT_2D XY="39,-2.531416973695051" ItemData="39"/>
+			</SERIES_2D>
+			<SERIES_2D UniqueID="4" Name="" NumPoints="2">
+				<POINT_2D XY="2,-5.301029995663981"/>
+				<POINT_2D XY="39,-5.301029995663981"/>
+			</SERIES_2D>
+			<SERIES_2D UniqueID="5" Name="" NumPoints="2">
+				<POINT_2D XY="2,-3.301029995663981"/>
+				<POINT_2D XY="39,-3.301029995663981"/>
+			</SERIES_2D>
+			<SERIES_2D UniqueID="6" Name="" NumPoints="2">
+				<POINT_2D XY="2,-2"/>
+				<POINT_2D XY="39,-2"/>
+			</SERIES_2D>
+			<SERIES_2D UniqueID="7" Name="" NumPoints="2">
+				<POINT_2D XY="2,-1.698970004336019"/>
+				<POINT_2D XY="39,-1.698970004336019"/>
+			</SERIES_2D>
+		</DATA_2D>
+		<MARKERS_2D NumMarkers="0" Visible="true" Width="1" Style="Solid" Color="255,0,0"/>
+		<CARTESIAN_2D_PLOT PlotType="Line" Visible="1" BackgroundColor="255,255,255" ForegroundColor="0,0,0" Box="1">
+			<TITLE Visible="1" Text="CASTEP Optimization Convergence">
+				<FONT/>
+			</TITLE>
+			<LEGEND Visible="1" Heading=""/>
+			<CARTESIAN_AXES_2D XOriginPos="Min" YOriginPos="Min" XTickPos="Auto" YTickPos="Auto">
+				<AXIS_X Visible="true" Reversed="false" Title="Optimization Step">
+					<FONT/>
+					<AXIS_LINE Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
+					<MAJOR_TICKMARKS Length="6" Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
+					<MINOR_TICKMARKS Length="2" Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
+				</AXIS_X>
+				<AXIS_Y Visible="true" Reversed="false" Title="Convergence (log10)">
+					<FONT/>
+					<AXIS_LINE Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
+					<MAJOR_TICKMARKS Length="6" Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
+					<MINOR_TICKMARKS Length="2" Visible="true" Width="1" Style="Solid" Color="185,185,185"/>
+				</AXIS_Y>
+			</CARTESIAN_AXES_2D>
+			<CARTESIAN_GRID_2D>
+				<GRID_X Visible="true" DefaultSpaced="true" Spacing="0">
+					<MAJOR_LINES Visible="false" Width="1" Style="Solid" Color="236,236,236"/>
+					<MINOR_LINES Visible="false" Width="1" Style="Solid" Color="236,236,236"/>
+				</GRID_X>
+				<GRID_Y Visible="true" DefaultSpaced="true" Spacing="0">
+					<MAJOR_LINES Visible="true" Width="1" Style="Solid" Color="236,236,236"/>
+					<MINOR_LINES Visible="false" Width="1" Style="Solid" Color="236,236,236"/>
+				</GRID_Y>
+			</CARTESIAN_GRID_2D>
+			<CARTESIAN_GRAPH_2D_STYLE LineVisible="true" LineWidth="1" LineStyle="Solid" LineColor="0,128,255" SymbolSize="6" SymbolShape="Dot" SymbolColor="0,128,255" BarOrientation="Horizontal" BarWidth="0.5" BarColor="0,0,255" DendrogramCursorColor="0,0,255" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+			<CARTESIAN_GRAPH_2D_STYLE LineVisible="true" LineWidth="1" LineStyle="Dash" LineColor="255,128,64" SymbolSize="6" SymbolShape="Box" SymbolColor="255,128,64" BarOrientation="Horizontal" BarWidth="0.5" BarColor="255,0,0" DendrogramCursorColor="255,0,0" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+			<CARTESIAN_GRAPH_2D_STYLE LineVisible="true" LineWidth="1" LineStyle="ShortDash" LineColor="64,0,128" SymbolSize="6" SymbolShape="Cross" SymbolColor="64,0,128" BarOrientation="Horizontal" BarWidth="0.5" BarColor="0,255,0" DendrogramCursorColor="0,255,0" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+			<CARTESIAN_GRAPH_2D_STYLE LineVisible="true" LineWidth="1" LineStyle="LongDashShortDash" LineColor="0,255,127" SymbolSize="6" SymbolShape="Circle" SymbolColor="0,255,127" BarOrientation="Horizontal" BarWidth="0.5" BarColor="92,92,205" DendrogramCursorColor="92,92,205" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+			<CARTESIAN_GRAPH_2D_STYLE LineVisible="true" LineWidth="1" LineStyle="Dash" LineColor="0,128,255" SymbolSize="6" SymbolShape="None" SymbolColor="0,128,255" BarOrientation="Horizontal" BarWidth="0.5" BarColor="255,112,132" DendrogramCursorColor="255,112,132" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+			<CARTESIAN_GRAPH_2D_STYLE LineVisible="true" LineWidth="2" LineStyle="Dash" LineColor="255,128,64" SymbolSize="6" SymbolShape="None" SymbolColor="255,128,64" BarOrientation="Horizontal" BarWidth="0.5" BarColor="50,205,154" DendrogramCursorColor="50,205,154" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+			<CARTESIAN_GRAPH_2D_STYLE LineVisible="true" LineWidth="1" LineStyle="Dash" LineColor="64,0,128" SymbolSize="6" SymbolShape="None" SymbolColor="64,0,128" BarOrientation="Horizontal" BarWidth="0.5" BarColor="0,165,255" DendrogramCursorColor="0,165,255" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+			<CARTESIAN_GRAPH_2D_STYLE LineVisible="true" LineWidth="1" LineStyle="Dash" LineColor="0,255,127" SymbolSize="6" SymbolShape="None" SymbolColor="0,255,127" BarOrientation="Horizontal" BarWidth="0.5" BarColor="225,105,65" DendrogramCursorColor="225,105,65" DendrogramCursorWidth="1" DendrogramCursorPosition="0.5"/>
+		</CARTESIAN_2D_PLOT>
+	</CHART_2D>
+</XCD>
